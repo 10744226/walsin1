@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>會議系統介面</title>
+	<link rel="stylesheet" type="text/css" href="css/MeetingSystem.css"/>
+		<script type="text/javascript" src="login.js"></script>
+	</head>
+	
+	<h2 class="text-center">華新雲會議系統 </h2>
+	
+	<div class="hi">
+	<p  >Hi~staffcode！</font>
+	<input type="button" class="lo" value="Logout" onclick="disp_confirm()" ></button></p>
+	</div>
+	
+
+	<body background="images/meetingRoom.jpg">
+	
+			
+		<div id="Meeting_frame">
+		<div class="content" style="overflow-y:scroll;height:100%";>	
+		<form method="post" action="login.js">
+		<input type="button" class="button666" color="yellow" value="會議A" onclick="location.href='MeetingA.html'"></button><span class="dot"></span> </br></br></br></br>
+		<input type="button" class="button666"  value="會議B"  onclick="location.href='MeetingB.html'"></button><span class="dot"></span> </br></br></br></br>
+		<input type="button" class="button666"  value="會議C"  onclick="location.href='MeetingC.html'"></button><span class="dot"></span> </br></br></br></br>
+		
+			<input type="button" id="C_Meeting" value="新建會議" onclick="location.href='CreateMeeting.html'"/>
+		</div>
+		</div>
+		
+	</form>
+
+</body>
+</html>
+
+
+<script type="text/javascript">
+	function disp_confirm()
+  	{
+  		var r=confirm("確定登出嗎？")
+  		if (r==true)
+    	{
+    		location.href="Login.html";
+    	}		
+  		else
+    	{
+    		location.href="";
+    	}
+  	}
+</script>

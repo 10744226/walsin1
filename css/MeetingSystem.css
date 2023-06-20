@@ -1,0 +1,126 @@
+ body{
+    min-height: 100vh;
+    background-position: 10px 18px ;
+    background-size:1300px;
+	}
+ 
+
+
+body::-webkit-scrollbar {
+    display:none;
+}
+
+.content::-webkit-scrollbar {
+    display:none;
+}
+
+p{
+
+font-size:20px ;
+}
+
+
+ #Meeting_frame {
+	width: 670px;
+	height: 360px;
+	padding: 30px;
+	margin:auto;
+	background-color: rgba(85%, 55%, 30%, 0.8);
+	border-radius: 30px;
+	}
+
+	form p > * {
+	display: inline-block;
+	vertical-align: middle;
+	}
+
+ .text-center
+	{
+		margin-top:35px;
+		text-align: center;
+		font-size:38px;
+	}
+
+
+.dot {
+  	
+  margin-top:3px;
+  width:40px;
+  height:40px;
+  background-color: white;
+  border-radius: 60%;
+  display: inline-block;
+  margin-left: 38px;
+}
+
+
+
+
+/*按鈕 */
+
+
+.button666 {
+  padding: 10px 95px;
+  margin-left: 190px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #FFCC66;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+	
+}
+
+.button666:hover {background-color: #FF9966}
+
+.button666:active {
+  background-color: #FF9966;
+  box-shadow: 0 3px #666;
+  transform: translateY(8px);
+}
+
+#C_Meeting {
+
+	font-size: 21px;
+	font-family: 微軟正黑體;
+	width: 160px;
+	height: 48px;
+	line-height: 28px;
+	text-align: center;
+	color: white;
+	background-color: #6699CC;
+	border-radius: 8px;
+	border: 0;
+	float: center;
+ 	margin-top:0px ;
+	margin-left:250px ;
+	}
+
+/*HI*/
+
+.hi{
+	margin-left:68%;
+	margin-top:-30px;	
+}
+.lo{
+	font-size:16px;
+	margin-right: 1%;
+	background-color: #FFCC66;
+  	border: none;
+  	border-radius: 15px;
+  	box-shadow: 0 3px #999;
+
+}
+.lo:hover {background-color: #FF9966}
+
+.lo:active {
+  background-color: #FF9966;
+  box-shadow: 0 3px #666;
+  transform: translateY(8px);
+}
+
+
+

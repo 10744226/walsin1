@@ -1,0 +1,76 @@
+ body{
+    min-height: 100vh;
+    background-color: #e6e6e6;
+	}
+
+
+
+
+ #login_frame {
+	width: 350px;
+	height: 230px;
+	padding: 83px;
+	position: absolute;
+	left: 52%;
+	top: 50%;
+	margin-left: -280px;
+	margin-top: -200px;
+	background-color: rgba(240, 255, 255, 0.5);
+	border-radius: 30px;
+	text-align: center;
+	}
+
+	form p > * {
+	display: inline-block;
+	vertical-align: middle;
+	}
+
+ .text-center
+	{
+		margin-top:-1px;
+	}
+ 
+ .label_input {
+	font-size: 16px;
+	font-family: 微軟正黑體;
+	width: 85px;
+	height: 36px;
+	line-height: 38px;
+	text-align: center;
+	color: white;
+	background-color: #FFCC66;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	margin-top:14px;
+	}
+
+
+	.text_field {
+	width: 250px;
+	height: 34px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border: 0;
+	margin-top:14px;
+	background-color: 	#E0E0E0;
+	}
+
+ #btn_login {
+
+	font-size: 21px;
+	font-family: 微軟正黑體;
+	width: 200px;
+	height: 38px;
+	line-height: 28px;
+	text-align: center;
+	color: white;
+	background-color: #FFCC66;
+	border-radius: 6px;
+	border: 0;
+	float: center;
+ 	margin-top:32px ;
+	}
+
+ #login_control {
+	padding: 0 28px;
+	}
